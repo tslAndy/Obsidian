@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "edf8d44ad5b5ff3d",
+            "id": "b2967bb9e5674a59",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Другое/Предпочитайте перегрузку параметрам по умолчанию.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec8074f6e51acd69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Delayed result gathering.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "26f390c2b1479539",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Delayed result gathering.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Delayed result gathering.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Delayed result gathering.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -151,6 +139,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -159,12 +148,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec8074f6e51acd69",
+  "active": "b2967bb9e5674a59",
   "lastOpenFiles": [
-    "Другое/Предпочитайте перегрузку параметрам по умолчанию.md",
-    "Delayed result gathering.md",
-    "Другое/Разное по шарпу.md",
     "Links.md",
+    "Untitled.md",
+    "RAII.md",
+    "Другое/Интрузивно связанные списки с безопасным уничтожением ссылок.md",
+    "Другое/Delayed result gathering, Time Slicing.md",
+    "Другое/Пакетные алгоритмы с временным разделением в играх.md",
+    "Attachments/async-input-sync-output-30hz.gif",
+    "Attachments/async-input-sync-output-30hz.gif.crdownload",
+    "Attachments/async-input-sync-output-10hz.gif",
+    "Attachments/async-input-sync-output-10hz.gif.crdownload",
+    "Attachments/sync-input-sync-output-30hz.gif",
+    "Attachments/sync-input-sync-output-30hz.gif.crdownload",
+    "Attachments/sync-input-sync-output-10hz.gif",
+    "Attachments/sync-input-sync-output-10hz.gif.crdownload",
+    "Attachments/sync-input-async-output-10hz.gif",
+    "Attachments/sync-input-async-output-30hz.gif",
+    "Attachments/single-threaded-raycasts-enlarged.png",
+    "Attachments/sync-input-async-output-30hz.gif.crdownload",
+    "Attachments/sync-input-async-output-10hz.gif.crdownload",
+    "Attachments/async-input-async-output-30hz.gif",
+    "Attachments/async-input-async-output-30hz.gif.crdownload",
+    "Attachments/async-input-async-output-10hz.gif",
+    "Attachments/async-input-async-output-10hz.gif.crdownload",
+    "Attachments/update-all.gif",
+    "Attachments/update-all.gif.crdownload",
+    "Attachments/exposure-avoidance-time-sliced-comrpessed.mp4.crdownload",
+    "Другое/Предпочитайте перегрузку параметрам по умолчанию.md",
+    "Другое/Разное по шарпу.md",
     "Паттерны/Поведенческие/Посетитель -.md",
     "Паттерны/Другие/Event Sourcing +.md",
     "Паттерны/Другие/Dirty Flag.md",
@@ -177,35 +190,11 @@
     "Другое/Модели памяти C++ и CLR.md",
     "Другое/GetHashCode.md",
     "Другое/Garbage Collection +.md",
-    "Attachments/f46d734da05c964f14acd386079ba99c.png",
-    "Attachments/f46d734da05c964f14acd386079ba99c.png.crdownload",
-    "Attachments/7c7f6a2a068ab578260996dfd678260a.png",
-    "Attachments/7c7f6a2a068ab578260996dfd678260a.png.crdownload",
-    "Attachments/non-linear-workflow.png",
-    "Attachments/non-linear-workflow.png.crdownload",
-    "Attachments/linear-workflow.png",
-    "Attachments/linear-workflow.png.crdownload",
-    "Attachments/monad-two-binds.png",
-    "Attachments/monad-two-binds.png.crdownload",
-    "Attachments/monad-bind.png",
-    "Attachments/monad-bind.png.crdownload",
     "Другое/Разные оптимизации +.md",
     "Другое/Enums +.md",
-    "Attachments/2a4a7b1a9e9a39dcd8f447cb1ab1dbf7.jpg",
-    "Attachments/2a4a7b1a9e9a39dcd8f447cb1ab1dbf7.jpg.crdownload",
-    "Attachments/5e44256b98b33c3596674b7f85820581.jpg",
     "Другое/Closures, Delegates and CG +.md",
     "Другое/Магические сигнатуры методов.md",
     "Другое/Understand monads with LINQ.md",
-    "Books.md",
-    "Attachments/q9amwe--vprnmgmf48lk4zuqxrq.png",
-    "Attachments/q9amwe--vprnmgmf48lk4zuqxrq.png.crdownload",
-    "Attachments/ru3yqzn21yn0rpcoip56k_w1yje.png",
-    "Attachments/ru3yqzn21yn0rpcoip56k_w1yje.png.crdownload",
-    "Attachments/-_nnbrd8zjt0t7vmlgdm6ylhxqi.png.crdownload",
-    "Templates/CS.md",
-    "Другое/UniTask +.md",
-    "Другое/Assembly Definition.md",
-    "Другое/Low Coupling High Cohesion +.md"
+    "Books.md"
   ]
 }
