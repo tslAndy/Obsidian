@@ -4,6 +4,7 @@ Game Programming Patterns
 Algorithms WTF
 Leetcode (Neetcode)
 Pitfalls of object oriented programming
+Почувствуй класс
 
 
 Data Oriented Design
@@ -44,6 +45,6 @@ Ray Tracing Gems
 Fragment, Vertex, Compute Shaders
 PBR Rendering
 
-
+Дисцплина программирования
 Конкретная математика
-The art of copmuter programming
+The art of computer programming
