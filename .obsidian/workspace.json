@@ -143,9 +143,11 @@
             "id": "0e70c4b9ac3e01c8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Attachments/Pasted image 20240818191221.png"
+                "file": "Refactor/Composing Methods.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -179,7 +181,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zenj",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,11 +198,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 254.5
+    "width": 254.5,
+    "collapsed": true
   },
   "right": {
     "id": "26f390c2b1479539",
@@ -216,7 +220,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/Pasted image 20240818191221.png",
+                "file": "Refactor/Composing Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +237,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attachments/Pasted image 20240818191221.png",
+                "file": "Refactor/Composing Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,7 +260,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachments/Pasted image 20240818191221.png"
+                "file": "Refactor/Composing Methods.md"
               }
             }
           },
@@ -287,16 +291,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "559165eff97988dc",
+  "active": "0e70c4b9ac3e01c8",
   "lastOpenFiles": [
     "Refactor/Dealing With Generalization.md",
+    "Паттерны/Другие/Transaction +.md",
+    "Refactor/Composing Methods.md",
     "Attachments/Pasted image 20240818191221.png",
     "Attachments/Pasted image 20240818191133.png",
     "Attachments/Pasted image 20240818191048.png",
     "Attachments/Pasted image 20240818190944.png",
     "Attachments/Pasted image 20240818190857.png",
     "Attachments/Pasted image 20240818190810.png",
-    "Refactor/Composing Methods.md",
     "Attachments/Pasted image 20240818190707.png",
     "Attachments/Pasted image 20240818190632.png",
     "Attachments/Pasted image 20240818190600.png",

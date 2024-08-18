@@ -272,3 +272,226 @@ string FoundPerson(string[] people)
   return String.Empty;
 }
 ```
+
+## Replace Command With Function
+```cs
+class ChargeCalculator {
+  constructor (customer, usage){
+    this._customer = customer;
+    this._usage = usage;
+  }
+  execute() {
+    return this._customer.rate * this._usage;
+  }
+}
+
+//------------------------------------------------------------------------
+
+function charge(customer, usage) {
+  return customer.rate * usage;
+}
+```
+
+## Replace Function with Command
+```cs
+function score(candidate, medicalExam, scoringGuide) {
+	let result = 0;
+	let healthLevel = 0;
+	// long body code
+}
+
+//------------------------------------------------------------------------
+
+class Scorer {
+  constructor(candidate, medicalExam, scoringGuide) {
+    this._candidate = candidate;
+    this._medicalExam = medicalExam;
+    this._scoringGuide = scoringGuide;
+  }
+
+  execute() {
+    this._result = 0;
+    this._healthLevel = 0;
+    // long body code
+  }
+}
+```
+
+## Replace Derived Variable with Query
+```cs
+get discountedTotal() {return this._discountedTotal;}
+set discount(aNumber) {
+const old = this._discount;
+this._discount = aNumber;
+this._discountedTotal += old - aNumber; 
+}
+
+//------------------------------------------------------------------------
+
+get discountedTotal() {return this._baseTotal - this._discount;}
+set discount(aNumber) {this._discount = aNumber;}
+```
+
+## Replace Exception with Precheck
+```cs
+double getValueForPeriod (int periodNumber) {
+  try {
+    return values[periodNumber];
+  } catch (ArrayIndexOutOfBoundsException e) {
+    return 0;
+  }
+}
+
+//------------------------------------------------------------------------
+
+double getValueForPeriod (int periodNumber) {
+  return (periodNumber >= values.length) ? 0 : values[periodNumber];
+}
+```
+
+## Replace Inline Code with Function Call
+```cs
+let appliesToMass = false;
+for(const s of states) {
+	if (s === "MA") appliesToMass = true;
+}
+
+//------------------------------------------------------------------------
+
+appliesToMass = states.includes("MA");
+```
+
+## Replace Loop with Pipeline
+```cs
+const names = [];
+for (const i of input) {
+if (i.job === "programmer")
+  names.push(i.name);
+}
+
+//------------------------------------------------------------------------
+
+const names = input
+.filter(i => i.job === "programmer")
+.map(i => i.name)
+;
+```
+
+## Replace Primitive with Object
+```cs
+orders.filter(o => "high" === o.priority
+                || "rush" === o.priority);
+
+//------------------------------------------------------------------------
+
+orders.filter(o => o.priority.higherThan(new Priority("normal")))
+```
+
+## Replace Query with Parameter
+```cs
+targetTemperature(aPlan)
+
+function targetTemperature(aPlan) {
+  currentTemperature = thermostat.currentTemperature;
+  // rest of function...
+
+//------------------------------------------------------------------------
+
+targetTemperature(aPlan, thermostat.currentTemperature)
+
+function targetTemperature(aPlan, currentTemperature) {
+  // rest of function...
+```
+
+## Replace Parameter with Query
+```cs
+availableVacation(anEmployee, anEmployee.grade);
+
+function availableVacation(anEmployee, grade) {
+  // calculate vacation...
+
+//------------------------------------------------------------------------
+
+availableVacation(anEmployee)
+
+function availableVacation(anEmployee) {
+  const grade = anEmployee.grade;
+  // calculate vacation...
+```
+
+## Slide Statements
+```cs
+const pricingPlan = retrievePricingPlan();
+const order = retreiveOrder();
+let charge;
+const chargePerUnit = pricingPlan.unit;
+
+//------------------------------------------------------------------------
+
+const pricingPlan = retrievePricingPlan();
+const chargePerUnit = pricingPlan.unit;
+const order = retreiveOrder();
+let charge;
+```
+
+## Split Loop
+```cs
+let averageAge = 0;
+let totalSalary = 0;
+for (const p of people) {
+	averageAge += p.age;
+	totalSalary += p.salary;
+}
+averageAge = averageAge / people.length;
+
+//------------------------------------------------------------------------
+
+let totalSalary = 0;
+for (const p of people) {
+	totalSalary += p.salary;
+}
+
+let averageAge = 0;
+for (const p of people) {
+	averageAge += p.age;
+}
+averageAge = averageAge / people.length;
+```
+
+## Split Phase
+```cs
+const orderData = orderString.split(/\s+/);
+const productPrice = priceList[orderData[0].split("-")[1]];
+const orderPrice = parseInt(orderData[1]) * productPrice;
+
+//------------------------------------------------------------------------
+
+const orderRecord = parseOrder(order);
+const orderPrice = price(orderRecord, priceList);
+
+function parseOrder(aString) {
+  const values =  aString.split(/\s+/);
+  return ({
+    productID: values[0].split("-")[1],
+    quantity: parseInt(values[1]),
+  });
+}
+function price(order, priceList) {
+  return order.quantity * priceList[order.productID];
+}
+```
+
+## Split Variable
+```cs
+let temp = 2 * (height + width);
+console.log(temp);
+temp = height * width;
+console.log(temp);
+
+//------------------------------------------------------------------------
+
+const perimeter = 2 * (height + width);
+console.log(perimeter);
+const area = height * width;
+console.log(area);
+```
