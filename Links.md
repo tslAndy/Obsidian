@@ -12,11 +12,10 @@ Unity Jobs + Burst
 SIMD  Linq
 Unity Atoms
 Alchemy
-Naughty Attributes
 Hot Reload
 Zinnia
-More Effective Coroutines
 
+- [ ] https://www.youtube.com/watch?v=_wxitgdx-UI&ab_channel=Unity
 - [ ] https://giannisakritidis.com/blog/Property-Bags-Null-Replacement/
 - [ ] https://giannisakritidis.com/blog/Awaitable/
 - [ ] https://giannisakritidis.com/blog/InstantiateAsync/

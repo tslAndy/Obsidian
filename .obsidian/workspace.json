@@ -55,16 +55,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Другое/FSM +.md",
+                "file": "Другое/Разные оптимизации +.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FSM +"
+              "title": "Разные оптимизации +"
+            }
+          },
+          {
+            "id": "2511251f5248e48c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Другое/Разные оптимизации +.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Разные оптимизации +"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -120,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.5
+    "width": 254.5,
+    "collapsed": true
   },
   "right": {
     "id": "26f390c2b1479539",
@@ -217,18 +232,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b8171df7822eefdc",
+  "active": "2511251f5248e48c",
   "lastOpenFiles": [
+    "Другое/Разное по шарпу.md",
+    "Другое/Разные оптимизации +.md",
+    "Links.md",
+    "Screenshot_20241022_225158.png",
+    "OptimizeGamePerformance_eBook_Final.pdf",
+    "PDFS/OptimizeGamePerformance_eBook_Final.pdf",
+    "Оптимизация UI.md",
+    "Другое/FSM +.md",
+    "Пет-проект.md",
     "Другое/Data Binding.md",
     "Паттерны/Другие/Repository +.md",
     "Books.md",
-    "Пет-проект.md",
     "ООП/Zenject (Extenject).md",
     "Другое/По архитектуре +.md",
     "Алгоритмы/Пакетные алгоритмы с временным разделением в играх +.md",
     "Алгоритмы/Trampoline +.md",
     "ООП/SOLID/Dependency Inversion Principle.md",
-    "Links.md",
     "Паттерны/Порождающие/Абстрактная фабрика +.md",
     "Паттерны/Структурные/Null Object +.md",
     "Паттерны/Уменьшающие связанность/Event Bus.md",
@@ -241,10 +263,6 @@
     "ООП/Закон Деметры +.md",
     "ООП/MVC MVP.md",
     "ООП/Primitive Obsession +.md",
-    "ООП/Curiously Recurring Template +.md",
-    "ООП/Abstract class vs Interface +.md",
-    "Refactor/Object Features/Extract Class.md",
-    "Refactor/Conditional/Replace Conditional with Polymorphism.md",
     "Refactor/Smells",
     "Refactor/Method Calling",
     "Refactor/Conditional",
@@ -261,9 +279,6 @@
     "Attachments/Pasted image 20240818190810.png",
     "Attachments/Pasted image 20240818190707.png",
     "Attachments/Pasted image 20240818190632.png",
-    "Attachments/Pasted image 20240818190600.png",
-    "Attachments/Pasted image 20240818190518.png",
-    "Refactor",
-    "Refactor"
+    "Attachments/Pasted image 20240818190600.png"
   ]
 }
