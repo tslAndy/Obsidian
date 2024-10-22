@@ -29,3 +29,4 @@ More Effective Coroutines
 - [ ] https://allenchou.net/2012/07/action-lists-they-are-cooler-than-commands/
 - [ ] https://allenchou.net/2014/10/safe-scope-based-instrumented-profiler/
 - [ ] https://allenchou.net/2011/02/matrix-stack-and-the-visitor-pattern/
+- [ ] https://codewithstyle.info/understand-monads-linq/
